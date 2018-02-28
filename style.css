@@ -1,0 +1,12 @@
+.impar {
+    color: #00f;
+    background-color: #f00;
+}
+.par {
+    color: #ff0;
+    background-color: #00f;
+}
+.normal {
+    color: #fff;
+    background-color: #000;
+}
