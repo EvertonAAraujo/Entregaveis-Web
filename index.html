@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Entregável Primeiro:
+Usando somente a tag <div id="principal"></div> dentro do código HTML, escrever um código HTML (e opcionalmente CSS) que faça o seguinte:
+
+Incluir dentro do <div> 10 parágrafos de texto
+Os parágrafos ímpares devem ser apresentados com texto na cor verde e fundo vermelho
+Os parágrafos pares devem ser apresentados com texto na cor amarela e fundo azul
+Ao clicar pela 1a vez em qualquer parágrafo, o texto deve ficar com a cor branca e fundo preto
+Ao clicar pela 2a vez em qualquer parágrafo, o texto deve voltar para a cor original (dependendo se a linha for par ou ímpar).
+-->
+<html>
+    <head>
+        <title>Exercício 1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="principal">
+            <p class="impar" onclick="classList.toggle('normal')">parágrafo 1</p>
+            <p class="par" onclick="classList.toggle('normal')">parágrafo 2</p>
+            <p class="impar" onclick="classList.toggle('normal')">parágrafo 3</p>
+            <p class="par" onclick="classList.toggle('normal')">parágrafo 4</p>
+            <p class="impar" onclick="classList.toggle('normal')">parágrafo 5</p>
+            <p class="par" onclick="classList.toggle('normal')">parágrafo 6</p>
+            <p class="impar" onclick="classList.toggle('normal')">parágrafo 7</p>
+            <p class="par" onclick="classList.toggle('normal')">parágrafo 8</p>
+            <p class="impar" onclick="classList.toggle('normal')">parágrafo 9</p>
+            <p class="par" onclick="classList.toggle('normal')">parágrafo 10</p>
+        </div>
+    </body>
+</html>
